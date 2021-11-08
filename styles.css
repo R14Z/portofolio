@@ -17,12 +17,14 @@
 
 #nav-home {
     position:absolute;
-    left: 90rem;
+    left: 89rem;
     top: 19px;
     font-size: 1.2rem;
     color: rgb(15, 42, 66);
     font-family: 'Poppins',sans-serif;    
 }
+
+
 
 #nav-skills {
     position:absolute;
@@ -68,7 +70,7 @@
     top: 23rem;    
 }
 
-.gogo {
+.discord {
     position:absolute;
     left: 42rem;
     top: 23rem;
@@ -87,86 +89,80 @@ p {
 
 .python {
     position:absolute;
-    left: 25%;
+    left: 30%;
     top: 30%;
 }
 
 .python-text {
     position:absolute;
-    left: 30%;
+    left: 35%;
     top: 30%;
     font-size: 10px;    
 }
 
 .html {
     position:absolute;
-    left: 50%;
+    left: 60%;
     top: 30%;
 }
 
 .html-text {
     position:absolute;
-    left: 55%;
+    left: 65%;
     top: 30%;
     font-size: 10px;    
 }
 
 .css {
     position:absolute;
-    left: 25%;
+    left: 30%;
     top: 40%;
 }
 
 .css-text {
     position:absolute;
-    left: 30%;
+    left: 35%;
     top: 40%;
     font-size: 10px;    
 }
 
 .js {
     position:absolute;
-    left: 50%;
+    left: 60%;
     top: 40%;
 }
 
 .js-text {
     position:absolute;
-    left: 55%;
+    left: 65%;
     top: 40%;
     font-size: 10px;    
 }
 
 .bootstrap {
     position:absolute;
-    left: 25%;
+    left: 29.5%;
     top: 50%;
 }
 
 .bootstrap-text {
     position:absolute;
-    left: 30%;
+    left: 34.5%;
     top: 50%;
     font-size: 10px;    
 }
 
 .node-js {
     position:absolute;
-    left: 50%;
+    left: 60%;
     top: 50%;    
 }
 
 .node-js-text {
     position:absolute;
-    left: 55%;
+    left: 65%;
     top: 50%;
     font-size: 10px;    
-}
-
-.bottom {
-    position:absolute;
-    top: 55rem;
-    left: 40%
 }
 
 .main_git {
@@ -180,4 +176,95 @@ p {
     position:absolute;
     left: 45%;
     top: 50%    
+}
+
+@media (max-width:1616px) {
+    #nav-riaz {
+        position: sticky;
+        left: 20rem;
+    }
+
+    #nav-home {
+        left: 60rem;
+    }
+
+    #nav-skills {
+        left: 65rem; 
+    }
+
+    #nav-code {
+        left: 70rem;
+    }
+
+    #nav-proj {
+        left: 80rem;
+    }
+
+    .main {
+        left: 8rem;
+    }
+
+    .git-button {
+        left: 8rem;
+    }
+
+    .email {
+        left: 15rem;
+    }
+
+    .discord {
+        left: 23rem;
+    }
+
+    .avatar {
+        left: 50rem;
+    }
+}
+
+@media (max-width:1509px) {
+    
+}
+
+@media (max-width:1024px) {
+    #nav-riaz {
+        position: sticky;
+        left: 20rem;
+    }
+
+    #nav-home {
+        left: 35rem;
+    }
+
+    #nav-skills {
+        left: 40rem;
+    }
+
+    #nav-code {
+        left: 45rem;
+    }
+
+    #nav-proj {
+        left: 55rem;
+    }
+    
+   .main {
+       left: 8rem;
+   } 
+
+   .git-button {
+       left: 8rem;
+   }
+
+   .email {
+       left: 14rem;
+   }
+
+   .discord {
+       left: 21rem;
+   }
+
+   .avatar {
+       left: 45rem;
+   }
+
 }
