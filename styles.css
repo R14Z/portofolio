@@ -1,9 +1,18 @@
 .main {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
     position:absolute;
     left: 30rem;
     top: 15rem;
     
+}
+
+.main-proj {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    position:absolute;
+    left: 30rem;
+    top: 15rem; 
 }
 
 #nav-riaz {
@@ -17,7 +26,7 @@
 
 #nav-home {
     position:absolute;
-    left: 89rem;
+    left: 96rem;
     top: 19px;
     font-size: 1.2rem;
     color: rgb(15, 42, 66);
@@ -28,7 +37,7 @@
 
 #nav-skills {
     position:absolute;
-    left: 95rem;
+    left: 102rem;
     top: 19px;
     font-size: 1.2rem;
     color: rgb(15, 42, 66);
@@ -37,7 +46,7 @@
 
 #nav-code {
     position:absolute;
-    left: 100rem;
+    left: 107rem;
     top: 19px;
     font-size: 1.2rem;
     color: rgb(15, 42, 66);
@@ -46,7 +55,7 @@
 
 #nav-proj {
     position:absolute;
-    left: 110rem;
+    left: 113rem;
     top: 19px;
     font-size: 1.2rem;
     color: rgb(15, 42, 66);
@@ -232,15 +241,15 @@ p {
     }
 
     #nav-home {
-        left: 35rem;
-    }
-
-    #nav-skills {
         left: 40rem;
     }
 
-    #nav-code {
+    #nav-skills {
         left: 45rem;
+    }
+
+    #nav-code {
+        left: 50rem;
     }
 
     #nav-proj {
@@ -267,4 +276,182 @@ p {
        left: 45rem;
    }
 
+   .main_git {
+       position:absolute;
+       left: 20%;
+       text-align: center;
+   }
+   
+}
+
+@media (max-width:425px) {
+    #nav-riaz {
+        font-size: 2.5rem;
+    }
+   
+    #nav-home {
+        font-size: 0;
+    }
+
+    #nav-skills {
+        left: 30rem;
+        font-size: 2.5rem;  
+    }
+
+    #nav-code {
+        left: 40rem;
+        font-size: 2.5rem;
+    }
+
+    #nav-proj {
+        left: 50rem;
+        font-size: 2.5rem;
+    }   
+
+    .main {
+        top: 30rem;
+    }
+
+    .git-button {
+        top: 37rem;
+    }   
+
+    .email {
+        top: 37rem;
+    }
+    
+    .discord {
+        top: 37rem;
+    }
+
+    .tech_header {
+        position: absolute;
+        left: 90%;
+        top: 55%;
+        text-align: center;
+    }
+
+    .bootstrap {
+        top: 60rem;
+    }
+
+    .bootstrap-text {
+        top: 60rem;
+    }
+
+    .css {
+        top: 53rem;
+    }
+
+    .css-text {
+        position: absolute;
+        top: 53rem;
+        left: 15rem;
+    }
+
+    .python {
+        top: 43.5rem;
+    }
+
+    .python-text {
+        top: 43.5rem;
+    }
+
+    .node-js {
+        top: 60rem;
+    }
+
+    .node-js-text {
+        top: 60rem;
+    }
+
+    .js {
+        top: 53rem;
+    }
+
+    .js-text {
+    position: absolute;
+    top: 53rem;
+    left: 15rem;        
+    }
+
+    .html {
+        top: 43.5rem;
+    }
+
+    .html-text {
+        top: 43.5rem;
+    }
+
+    .main-proj {
+        position: absolute;
+        left: 50%;
+    }
+}
+
+@media (max-width:320px) {
+    .main {
+        bottom: 3rem;
+    } 
+}
+
+
+@media (max-width:786px) {
+    .html-text {
+        position: absolute;
+        left: 40rem;
+    }
+
+    .html {
+        left: 35rem;
+    }
+
+    .python {
+        left: 10rem;
+    }
+
+    .python-text {
+        left: 15rem;
+    }
+
+    .css {
+        left: 10rem;
+    }
+
+    .js-text {
+        position:absolute;
+        left: 40rem;
+    }
+
+    .js {
+        left: 35rem;
+    }
+
+    .bootstrap {
+        left: 10rem;
+    }
+
+    .bootstrap-text {
+        left: 15rem;
+    }
+
+    .node-js {
+        left: 35rem;
+    }
+
+    .node-js-text {
+        position: absolute;
+        left: 40rem;
+    }
+}
+
+@media (max-width:768px) {
+    .proj-git-button {
+        top: 53%;
+        left: 50%
+    }
+
+    .main-proj {
+        left: 53%
+    }
 }
